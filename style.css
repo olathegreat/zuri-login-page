@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    color: rgb(38, 38, 38);
+    background: rgba(255, 225, 230, 0.413);
+    padding-bottom: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: rgb(172, 243, 255);
+    margin-bottom: 50px;
+}
+
+nav h3{
+  margin: 0;
+}
+a{
+    color: rgb(246, 49, 82);
+    text-decoration: none;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.field{
+    display: flex;
+    flex-direction: column;
+}
+input:first-child{
+    margin-top: 20px;
+}
+input{
+    margin-bottom: 20px;
+    border: none;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    outline: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.281);
+}
+input:focus{
+    outline: none;
+}
+
+.login-form{
+    border: 1px solid lightgray;
+    
+    background-color: white;
+}
+.register .login-form{
+    width: 50%;
+}
+button{
+    border: none;
+    width: 100%;
+    background-color: lightseagreen;
+}
+h2{
+    padding-left: 10px;
+    background: rgb(246, 56, 88);
+    margin: 0;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+small{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    
+
+}
+
+form{
+    margin-top: 10px;
+}
+input[type="submit"]{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    width: 50%;
+    border-bottom: none;
+    background-color: rgba(128, 128, 128, 0.394);
+
+}
+select{
+   margin-left: 10px;
+    margin-right: 10px;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.date{
+    margin-left: 10px;
+    margin-top: 20px;
+    color: rgba(38, 38, 38, 0.816);
+}
+.date p{
+    margin: 0;
+    font-weight: 400;
+    font-size: .8em;
+}
+.register input[type="submit"]{
+    background-color: rgb(246, 49, 82);
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    align-items: center;
+}
+
+.wrapper{
+    border: 1px solid green;
+    color: green;
+    padding: 30px;
+
+}
+h3{
+    font-weight: 500;
+    color: rgba(217, 8, 8, 0.656);
+}
+
+.option{
+
+    width: inherit;
+    font-size: .7em;
+    padding: 10px;
+    text-align: center;
+}
